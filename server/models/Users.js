@@ -15,4 +15,4 @@ const UserSchema = new mongoose.Schema({
     },
 });
 
-const UserModel = mongoose.model("", UserSchema);
+const UserModel = mongoose.model("users", UserSchema);
