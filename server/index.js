@@ -6,6 +6,7 @@ const cors = require("cors");
 
 //Parse JSON in post request
 app.use(express.json());
+app.use(cors());
 
 mongoose.connect("mongodb+srv://joel:hollywood@cluster0.kxgzl.mongodb.net/mernproject?retryWrites=true&w=majority");
 
