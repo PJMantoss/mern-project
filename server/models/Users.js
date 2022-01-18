@@ -9,4 +9,8 @@ const UserSchema = new mongoose.Schema({
         type: Number,
         required: true,
     },
+    username: {
+        type: String,
+        required: true,
+    },
 });
