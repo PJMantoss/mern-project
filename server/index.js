@@ -6,7 +6,7 @@ const UserModel = require("./models/Users");
 mongoose.connect("mongodb+srv://joel:hollywood@cluster0.kxgzl.mongodb.net/mernproject?retryWrites=true&w=majority");
 
 app.get("/getUsers", (req, res) => {
-    UserModel.findOne({}, (err, result) => {
+    UserModel.find({}, (err, result) => {
         if(err){
             res.json(err);
         } else {
