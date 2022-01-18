@@ -15,6 +15,10 @@ app.get("/getusers", (req, res) => {
     })
 });
 
+app.post("/createuser", (req, res) => {
+    
+})
+
 app.listen(3001, () => {
     console.log("Server is runnning!")
 });
