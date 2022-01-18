@@ -14,3 +14,5 @@ const UserSchema = new mongoose.Schema({
         required: true,
     },
 });
+
+const UserModel = mongoose.model("", UserSchema);
