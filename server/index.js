@@ -3,6 +3,9 @@ const app = express();
 const mongoose = require("mongoose");
 const UserModel = require("./models/Users");
 
+//Parse JSON in post request
+app.use(express.json());
+
 mongoose.connect("mongodb+srv://joel:hollywood@cluster0.kxgzl.mongodb.net/mernproject?retryWrites=true&w=majority");
 
 app.get("/getusers", (req, res) => {
