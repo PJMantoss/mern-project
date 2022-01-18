@@ -10,7 +10,7 @@ app.get("/getusers/", (req, res) => {
         if(err){
             res.json(err);
         } else {
-            res.json(result)
+            res.json(result);
         }
     })
 });
