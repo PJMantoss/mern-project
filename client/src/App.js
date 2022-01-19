@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   const createUser = () => {
-    Axios.post("")
+    Axios.post("http://localhost:3001/createuser")
   };
 
   return (
