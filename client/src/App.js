@@ -3,9 +3,7 @@ import Axios from 'axios';
 import './App.css';
 
 function App() {
-  const [ listOfUsers, setListofUsers ] = useState([
-    {id: 1, name: "Dave", age: 22, username: "dave10"}
-  ]);
+  const [ listOfUsers, setListofUsers ] = useState([]);
 
   useEffect(() => {
     Axios.get("http://localhost:3001/getusers");
