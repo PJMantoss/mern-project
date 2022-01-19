@@ -1,6 +1,6 @@
 # A Simple MERN Tutorial Showing How to Add Users to a Database
 
-### Project Covers Only One Aspect of the CRUD Operations common in Fullstack Apps (The C in CRUD)
+### Project Covers Only One Aspect (Create) of CRUD Operations common with Fullstack Apps (The C in CRUD)
 
 ## Dependencies
 - Express
