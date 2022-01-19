@@ -28,6 +28,8 @@ function App() {
 
       <form>
         <input type="text" placeholder="" />
+
+        <button>Create User</button>
       </form>
     </div>
   );
