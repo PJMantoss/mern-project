@@ -6,7 +6,7 @@ function App() {
     {id: 1, name: "Dave", age: 22, username: "dave10"}
   ]);
 
-  useEffect()
+  useEffect(() => {}, []);
 
   return (
     <div className="App">
