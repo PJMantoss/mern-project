@@ -44,7 +44,12 @@ function App() {
         <input 
            type="text" 
            placeholder="Age..." 
-           onChange={e => setName(e.target.value)}
+           onChange={e => setAge(e.target.value)}
+        />
+        <input 
+           type="text" 
+           placeholder="Username..." 
+           onChange={e => setUsername(e.target.value)}
         />
 
         <button>Create User</button>
