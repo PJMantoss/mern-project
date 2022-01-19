@@ -6,7 +6,8 @@ function App() {
   const [ listOfUsers, setListofUsers ] = useState([]);
 
   useEffect(() => {
-    Axios.get("http://localhost:3001/getusers");
+    Axios.get("http://localhost:3001/getusers")
+         .then(res => res.data);
   }, []);
 
   return (
