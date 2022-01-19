@@ -36,9 +36,16 @@ function App() {
       </div>
 
       <form onSubmit={createUser}>
-        <input type="text" placeholder="Name..." />
-        <input type="text" placeholder="Age..." />
-        <input type="text" placeholder="Username..." />
+        <input 
+           type="text" 
+           placeholder="Name..." 
+           onChange={e => setName(e.target.value)}
+        />
+        <input 
+           type="text" 
+           placeholder="Age..." 
+           onChange={e => setName(e.target.value)}
+        />
 
         <button>Create User</button>
       </form>
