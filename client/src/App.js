@@ -32,6 +32,8 @@ function App() {
 
       <form onSubmit={createUser}>
         <input type="text" placeholder="" />
+        <input type="text" placeholder="" />
+        <input type="text" placeholder="" />
 
         <button>Create User</button>
       </form>
