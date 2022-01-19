@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [ listOfUsers, setListofUsers ] = useState([
-    {id: 1, name: "Dave", age: 22, }
+    {id: 1, name: "Dave", age: 22, username: "dave10"}
   ]);
 
   return (
