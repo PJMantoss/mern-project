@@ -11,7 +11,9 @@ function App() {
       <div className="usersDisplay">
         {listOfUsers.map(user => {
           return(
-            <div></div>
+            <div>
+              {}
+            </div>
           )
         })}
       </div>
