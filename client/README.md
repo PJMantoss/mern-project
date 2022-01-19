@@ -6,5 +6,6 @@
 - Express
 - Mongoose
 - CORS
+- Axios
 
 ### Date: 19 January, 2022
