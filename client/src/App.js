@@ -16,11 +16,13 @@ function App() {
   }, []);
 
   const createUser = () => {
-    Axios.post("http://localhost:3001/createuser", {
+    const newUser = {
       name,
       age,
       username
-    }).then(res => {
+    };
+    
+    Axios.post("http://localhost:3001/createuser").then(res => {
       alert("User Created!");
     })
   };
