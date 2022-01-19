@@ -5,6 +5,11 @@
 form {
   display: flex;
   flex-direction: column;
+  width: 1680px;
+}
+
+form input {
+  width: 50%;
 }
 
 /* .App-logo {
