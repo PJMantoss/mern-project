@@ -31,9 +31,9 @@ function App() {
       </div>
 
       <form onSubmit={createUser}>
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
+        <input type="text" placeholder="Name..." />
+        <input type="text" placeholder="Age..." />
+        <input type="text" placeholder="Username..." />
 
         <button>Create User</button>
       </form>
