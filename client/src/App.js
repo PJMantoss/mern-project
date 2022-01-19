@@ -8,7 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="usersDisplay"></div>
+      <div className="usersDisplay">
+        {listOfUsers.map(user => user)}
+      </div>
     </div>
   );
 }
