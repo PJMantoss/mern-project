@@ -25,6 +25,10 @@ function App() {
           )
         })}
       </div>
+
+      <form>
+        <input />
+      </form>
     </div>
   );
 }
