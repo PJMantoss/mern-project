@@ -28,7 +28,7 @@ function App() {
         })}
       </div>
 
-      <form onSubmit={CreateUser}>
+      <form onSubmit={createUser}>
         <input type="text" placeholder="" />
 
         <button>Create User</button>
