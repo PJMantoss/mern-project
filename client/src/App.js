@@ -13,6 +13,7 @@ function App() {
           return(
             <div>
               <h1>Name: {user.name}</h1>
+              <h3>Age: {user.age}</h3>
             </div>
           )
         })}
