@@ -12,7 +12,9 @@ function App() {
          });
   }, []);
 
-  const createUser = () => {};
+  const createUser = () => {
+    Axios.post("")
+  };
 
   return (
     <div className="App">
