@@ -27,7 +27,7 @@ function App() {
       </div>
 
       <form>
-        <input />
+        <input type="text" placeholder="" />
       </form>
     </div>
   );
