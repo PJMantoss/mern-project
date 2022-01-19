@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   const [ listOfUsers, setListofUsers ] = useState([]);
   const [ name, setName ] = useState("");
-  const [] = useState("");
-  const [] = useState("");
+  const [ age, setAge ] = useState(0);
+  const [ username, setUsername ] = useState("");
 
   useEffect(() => {
     Axios.get("http://localhost:3001/getusers")
