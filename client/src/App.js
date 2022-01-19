@@ -37,7 +37,7 @@ function App() {
         {listOfUsers.map(user => {
           return(
             <div>
-              <h1>Name: {user.name}</h1>
+              <h2>Name: {user.name}</h2>
               <h3>Age: {user.age}</h3>
               <h3>Username: {user.username}</h3>
             </div>
