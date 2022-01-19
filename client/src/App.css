@@ -1,15 +1,18 @@
 .App {
   text-align: center;
+  width: 80%;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  width: 680px;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
 }
 
 form input {
-  width: 50%;
+  width: 30%;
 }
 
 /* .App-logo {
