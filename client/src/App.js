@@ -12,6 +12,8 @@ function App() {
          });
   }, []);
 
+  const createUser = () => {};
+
   return (
     <div className="App">
       <div className="usersDisplay">
