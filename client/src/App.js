@@ -4,6 +4,9 @@ import './App.css';
 
 function App() {
   const [ listOfUsers, setListofUsers ] = useState([]);
+  const [ name, setName ] = useState("");
+  const [] = useState("");
+  const [] = useState("");
 
   useEffect(() => {
     Axios.get("http://localhost:3001/getusers")
