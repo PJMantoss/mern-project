@@ -23,6 +23,10 @@ function App() {
     };
 
     Axios.post("http://localhost:3001/createuser", newUser).then(res => {
+      setListofUsers([
+        ...listOfUsers,
+        newUser
+      ]);
       alert("User Created!");
     })
   };
