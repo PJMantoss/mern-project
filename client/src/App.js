@@ -8,7 +8,7 @@ function App() {
   ]);
 
   useEffect(() => {
-    Axios.get("")
+    Axios.get("http://localhost:3001/getusers");
   }, []);
 
   return (
