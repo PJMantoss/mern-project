@@ -12,7 +12,7 @@ function App() {
         {listOfUsers.map(user => {
           return(
             <div>
-              <h1>Name: {}</h1>
+              <h1>Name: {user.name}</h1>
             </div>
           )
         })}
