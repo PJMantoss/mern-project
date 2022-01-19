@@ -8,4 +8,9 @@
 - CORS
 - Axios
 
+## Steps To Run Project Locally
+- Clone repo to any dir on your machine
+- cd into 'server' and run 'npm install' to add dependencies (express, mongoose, cors)
+- cd into 'client' and run 'npm install' to add dependencies (axios)
+
 ### Date: 19 January, 2022
