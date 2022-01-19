@@ -21,8 +21,8 @@ function App() {
       age,
       username
     };
-    
-    Axios.post("http://localhost:3001/createuser").then(res => {
+
+    Axios.post("http://localhost:3001/createuser", newUser).then(res => {
       alert("User Created!");
     })
   };
