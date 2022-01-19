@@ -14,6 +14,7 @@ function App() {
             <div>
               <h1>Name: {user.name}</h1>
               <h3>Age: {user.age}</h3>
+              <h3>Username: {user.username}</h3>
             </div>
           )
         })}
