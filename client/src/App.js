@@ -13,7 +13,9 @@ function App() {
   }, []);
 
   const createUser = () => {
-    Axios.post("http://localhost:3001/createuser")
+    Axios.post("http://localhost:3001/createuser").then(res => {
+      alert("User Created!");
+    })
   };
 
   return (
